@@ -1,6 +1,7 @@
 # noOP-v2AGH
 
 本方案使用 Linux 系统一键脚本安装 v2rayA➕AdGuard Home，作为透明代理和 DNS 服务器，替换掉劝退小白、操作繁琐的 OpenWrt 软（旁）路由方案。 
+> 你也可以选择 ShellCrash ➕ AdGuard Home，体验基本差不多，看个人喜好。我觉得 Clash 有点繁琐了，就用 v2rayA。
 
 我先说个「暴论」， 70% 的人其实压根不需要 Openwrt 除了魔法上网的大部分功能，大部分人都是随大流，根据各种 XX 教程安装了 OP，结果就是各种配置繁杂的过程，还有各种易冲突的插件。  
 
@@ -35,7 +36,7 @@
 请确保你的网络可以顺利访问 Github，提供一个[Github520](https://github.com/521xueweihan/GitHub520)项目供参考，如果还不行请自己解决。  
 `sudo sh -c 'sed -i "/# GitHub520 Host Start/Q" /etc/hosts && curl https://raw.hellogithub.com/hosts >> /etc/hosts'`
 
-### 2. 一键安装 v2rayA
+### 2. 一键安装 v2rayA（ 也可换成 ShellCrash）
 GitHub 项目地址➡️https://github.com/v2rayA/v2rayA  
 我使用的是基于 Debian 的系统（比如 OMV、Armbian），其他 Linux 发行版参考[官网安装文档](https://v2raya.org/docs/prologue/installation/)
 
